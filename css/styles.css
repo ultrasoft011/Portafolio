@@ -6,13 +6,14 @@
     display: flex;
     padding: 0 109px 0 129px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact {
     padding: 1rem 3rem 1rem 3rem;
-    position: absolute;
     width: 25rem;
     top: 30rem;
     left: 30rem;
     background-color: #FFE8E8;
+    z-index: -1;
 }
