@@ -68,62 +68,38 @@ header{
 .footer__profile {
     background-color: #D8D8D8;
     mix-blend-mode: normal;
+    text-align: center;
 }
 
 .footer__profile--text {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
+    text-align: justify;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.385714px;
     color: #6D6D6D;
-    padding-top: 71px;
-    padding-left: 70px;
-    padding-right: 23px;
+    padding: 70px 50px 35px 50px;
 }
 .footer__name {
     font-family: Linoleo Script;
-    font-style: normal;
+    font-style: italic;
     font-weight: normal;
     font-size: 80px;
-    line-height: 76px;
+    margin: 0px;
+    padding-top: 80px;
     letter-spacing: 1.71429px;
     color: #6D6D6D;
 }
 
-.footer__desing {
-    height: 35.5546875px;
-width: 594.6720581054688px;
-left: 2811px;
-top: 5301px;
-border-radius: nullpx;
-
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0.3857142925262451px;
-text-align: left;
-
-background: #6D6D6D;
-
-position: absolute;
-width: 594.67px;
-height: 35.55px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-
-letter-spacing: 0.385714px;
-
-color: #6D6D6D;
-
-mix-blend-mode: normal;
-opacity: 0.8;
+.footer__design {
+    font-size: 15px;
+    color: #6D6D6D;
 }
+
+.footer__johnDoe {
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #6D6D6D
+} 
