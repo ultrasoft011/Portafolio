@@ -1,0 +1,31 @@
+/* Work */
+
+.work__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-izq {
+    text-align: left;
+    flex: 50%;
+    margin-top: 0;
+}
+.work-derecha {
+    flex: 50%;
+    text-align: left;
+    margin-top: 35px;
+}
+.work__card h5 {
+    font-size: 30px;
+}
+.work__card p {
+    font-size: 18px;
+}
+.work__card button {
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+}
+.work-title {
+    font-size: 80px;
+    font-weight: 700;
+}
