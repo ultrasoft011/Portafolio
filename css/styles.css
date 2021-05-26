@@ -29,3 +29,69 @@
     font-size: 80px;
     font-weight: 700;
 }
+
+/* header */
+
+header{
+    width:100%;
+    
+}
+.header__profile{        
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__profile--sections {
+    min-width: 360px;
+    width: 40%;
+    background-color:#F6F6F6;       
+    display: flex;
+    flex-direction: column;   
+}
+
+.header__profile--img{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.header__profile--sections img{
+    margin-top: 20px;    
+    height:auto;
+    width:200px
+}
+
+.header__options{
+    width: 60%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__options a{
+    text-decoration: none;
+    color: black;
+}
+
+.header__curriculum{
+    width: 60%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;    
+}
+
+.header__curriculum h1{
+    text-align: center;
+    font-size: 55px;
+    color: #999999;
+}
+
+.header__curriculum--btn button{
+    height: 40px;
+    border:none;
+    background-color:#FFE8E8;
+    font-size: 14px;
+letter-spacing: 2px;
+}
