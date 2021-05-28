@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 /* header */
 
 * {
     font-family: 'Poppins', sans-serif;
 }
+=======
+
+/* header */
+>>>>>>> 312ae788f0f1495531a54fb9fe05bb6af448b22b
 
 header{
     width:100%;
@@ -67,6 +72,7 @@ header{
     background-color:#FFE8E8;
     font-size: 14px;
 letter-spacing: 2px;
+<<<<<<< HEAD
 }
 
 /* About */ 
@@ -84,4 +90,7 @@ letter-spacing: 2px;
     top: 30rem;
     left: 30rem;
     background-color: #FFE8E8;
+=======
+
+>>>>>>> 312ae788f0f1495531a54fb9fe05bb6af448b22b
 }
