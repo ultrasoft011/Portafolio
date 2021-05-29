@@ -52,7 +52,6 @@ header{
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    
 }
 
 .header__curriculum h1{
@@ -66,6 +65,47 @@ header{
     border:none;
     background-color:#FFE8E8;
     font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.footer__profile {
+    background-color: #D8D8D8;
+    mix-blend-mode: normal;
+    text-align: center;
+}
+
+.footer__profile--text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.385714px;
+    color: #6D6D6D;
+    padding: 70px 50px 35px 50px;
+}
+.footer__name {
+    font-family: Linoleo Script;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 80px;
+    margin: 0px;
+    padding-top: 80px;
+    letter-spacing: 1.71429px;
+    color: #6D6D6D;
+}
+
+.footer__design {
+    font-size: 15px;
+    color: #6D6D6D;
+}
+
+.footer__johnDoe {
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #6D6D6D
+} 
 letter-spacing: 2px;
 }
 
