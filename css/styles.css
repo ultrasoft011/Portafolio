@@ -9,79 +9,45 @@ header {
 }
 
 .header__profile {
+  margin: 50px 0 50px 0;
   width: 90%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
-}
-
-.header__profile--sections {
-  width: 100%;
-  background-color: #f6f6f6;
+  height: 400px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
-.header__curriculum {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header__profile--img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.header__profile--sections img {
-  margin-top: 20px;
-  height: auto;
-  width: 200px;
-}
-
-.header__curriculum--btn button {
-  height: 40px;
-  border: none;
-  background-color: #ffe8e8;
-  font-size: 14px;
-  letter-spacing: 2px;
-}
-
-.header__options {
-  width: 60%;
-  margin: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__options a {
-  text-decoration: none;
-  color: black;
-}
-
-.header__curriculum {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header__curriculum h1 {
+.header__profile h1 {
   text-align: center;
-  font-size: 55px;
-  color: #999999;
+  font-size: 80px;
+  color: rgb(105, 63, 63);
+  animation-name: fadeIn;
+  animation-duration: 4.9s;
+  animation-iteration-count: infinite;
 }
 
-.header__curriculum--btn button {
-  height: 40px;
-  border: none;
-  background-color: #ffe8e8;
-  font-size: 14px;
-  letter-spacing: 2px;
+.header--work {
+  text-align: center;
+  text-decoration: none;
+  font-size: 80px;
+  font-weight: 400;
+  display: none;
+}
+.header--project {
+  text-align: center;
+  text-decoration-color: rgb(0, 0, 238);
+  text-decoration: none;
+  font-size: 80px;
+  font-weight: 650;
+  display: none;
+}
+.header--about {
+  text-align: center;
+  color: rgba(27, 148, 122, 0.931);
+  text-decoration: none;
+  font-size: 80px;
+  font-weight: 300;
+  display: none;
 }
 
 /* END Header */
@@ -261,12 +227,6 @@ header {
 
 /* Animations */
 
-.header__curriculum--title h1 {
-  animation-name: fadeIn;
-  animation-duration: 4.9s;
-  animation-iteration-count: infinite;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -274,27 +234,4 @@ header {
   100% {
     opacity: 1;
   }
-}
-
-.header--work {
-  text-align: center;
-  text-decoration: none;
-  font-size: 80px;
-  font-weight: 700;
-  display: none;
-}
-.header--profile {
-  color: #000;
-  text-align: center;
-  text-decoration: none;
-  font-size: 60px;
-  font-weight: 300;
-  display: none;
-}
-.header--about {
-  text-align: center;
-  text-decoration: none;
-  font-size: 80px;
-  font-weight: 700;
-  display: none;
 }
