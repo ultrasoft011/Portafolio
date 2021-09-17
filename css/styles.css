@@ -117,11 +117,6 @@ header {
   border-radius: 10px;
   border: none;
 }
-.work-title {
-  text-align: center;
-  font-size: 80px;
-  font-weight: 700;
-}
 
 /* END Work */
 
@@ -264,16 +259,11 @@ header {
 
 /* END Footer */
 
-.header__profile {
-  visibility: hidden;
-}
-
-
 /* Animations */
 
 .header__curriculum--title h1 {
   animation-name: fadeIn;
-  animation-duration: 4.8s;
+  animation-duration: 4.9s;
   animation-iteration-count: infinite;
 }
 
@@ -284,4 +274,27 @@ header {
   100% {
     opacity: 1;
   }
+}
+
+.header--work {
+  text-align: center;
+  text-decoration: none;
+  font-size: 80px;
+  font-weight: 700;
+  display: none;
+}
+.header--profile {
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: 300;
+  display: none;
+}
+.header--about {
+  text-align: center;
+  text-decoration: none;
+  font-size: 80px;
+  font-weight: 700;
+  display: none;
 }
