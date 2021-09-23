@@ -11,7 +11,7 @@ header {
 .header__profile {
   margin: 50px 0 50px 0;
   width: 100%;
-  height: 400px;
+  height: 240px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -19,7 +19,7 @@ header {
 
 .header__profile h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
   color: rgb(105, 63, 63);
   animation-name: fadeIn;
   animation-duration: 4.9s;
@@ -30,13 +30,13 @@ header {
   text-align: center;
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 300;
   display: none;
 }
 
 .header--work:hover {
-  background-color: #000;
+  background-color: rgb(34, 31, 31);
   color: #fff;
 }
 
@@ -44,7 +44,7 @@ header {
   text-align: center;
   color: rgb(106, 30, 116);
   text-decoration: none;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 650;
   display: none;
 }
@@ -58,7 +58,7 @@ header {
   text-align: center;
   color: rgba(27, 148, 122, 0.931);
   text-decoration: none;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 300;
   display: none;
 }
@@ -97,37 +97,52 @@ header {
   margin-top: 35px;
 }
 
-.work__leftcard, .work__leftcard2 {
+.work__leftcard,
+.work__leftcard2 {
   display: none;
   animation-name: fadeIn;
   animation-duration: 3s;
 }
 
-.work__leftcard, .work__leftcard2, h5 {
+.work__leftcard,
+.work__leftcard2,
+h5 {
   font-size: 30px;
 }
-.work__leftcard, .work__leftcard2, p {
+
+.work__leftcard,
+.work__leftcard2,
+p {
   font-size: 18px;
 }
 
-.work__leftcard, .work__leftcard2, button {
+.work__leftcard,
+.work__leftcard2,
+button {
   font-size: 12px;
   border-radius: 10px;
   border: none;
 }
 
-.work__rightcard, .work__rightcard2 {
+.work__rightcard,
+.work__rightcard2 {
   display: none;
   animation-name: fadeIn;
   animation-duration: 3s;
 }
-.work__rightcard, .work__rightcard2, h5 {
+.work__rightcard,
+.work__rightcard2,
+h5 {
   font-size: 30px;
 }
-.work__rightcard, .work__rightcard2, p {
+.work__rightcard,
+.work__rightcard2,
+p {
   font-size: 18px;
 }
-.work__rightcard, .work__rightcard2, button {
+.work__rightcard,
+.work__rightcard2,
+button {
   font-size: 12px;
   border-radius: 10px;
   border: none;
@@ -139,6 +154,7 @@ header {
 
 .about {
   display: flex;
+  display: none;
   padding: 0 109px 0 129px;
   flex-wrap: wrap;
   justify-content: center;
@@ -157,6 +173,7 @@ header {
 /* Projects */
 
 .projects {
+  display: none;
   margin: 0px;
 }
 
@@ -234,6 +251,7 @@ header {
 /* Footer */
 
 .footer__profile {
+  display: none;
   background-color: #d8d8d8;
   mix-blend-mode: normal;
   text-align: center;
