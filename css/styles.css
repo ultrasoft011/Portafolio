@@ -1,11 +1,23 @@
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(243, 237, 230);
 }
 
 /* Header */
 
 header {
   width: 100%;
+
 }
 
 .header__profile {
@@ -249,45 +261,10 @@ button {
 /* END Projects */
 
 /* Footer */
-
-.footer__profile {
-  display: none;
-  background-color: #d8d8d8;
-  mix-blend-mode: normal;
-  text-align: center;
-}
-
-.footer__profile--text {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  text-align: justify;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.385714px;
-  color: #6d6d6d;
-  padding: 70px 50px 35px 50px;
-}
-.footer__name {
-  font-family: Linoleo Script;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 80px;
-  margin: 0px;
-  padding-top: 80px;
-  letter-spacing: 1.71429px;
-  color: #6d6d6d;
-}
-
-.footer__design {
-  font-size: 15px;
-  color: #6d6d6d;
-}
-
-.footer__johnDoe {
-  font-size: 15px;
-  padding-bottom: 20px;
-  color: #6d6d6d;
+footer {
+  margin-top: auto;
+  background-color: #5c231c;
+  color: white;
 }
 
 /* END Footer */
