@@ -283,6 +283,7 @@ footer {
   margin-top: auto;
   background-color: #312f2f;
   color: white;
+  text-align: center;
 }
 
 .social-media {
@@ -293,8 +294,9 @@ footer {
 .fa-github-square,
 .fa-twitter-square,
 .fa-linkedin {
-  font-size: 80px;
-  margin: 15px 25px 10px 25px;
+  font-size: 33px;
+  margin: 15px 10px 10px 25px;
+  padding: 0;
   cursor: pointer;
 }
 
