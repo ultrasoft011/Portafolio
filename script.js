@@ -37,17 +37,17 @@ setTimeout(function () {
   }, 5000);
   setTimeout(function () {
     first.style.display = "none";
-  }, 1000);
+  }, 10000);
   setTimeout(function () {
     work.style.display = "block";
     // buttonWork.style.display = "block";
-  }, 1100);
+  }, 11000);
   setTimeout(function () {
     project.style.display = "block";
     // buttonProject.style.display = "block";
-  }, 1250);
+  }, 12500);
   setTimeout(function () {
     about.style.display = "block";
     // buttonAbout.style.display = "block";
-  }, 1350);
+  }, 13500);
 }, 5000);
