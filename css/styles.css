@@ -45,7 +45,6 @@ header {
 }
 
 .header--work {
-  
   font-size: 40px;
   display: none;
 }
@@ -340,7 +339,31 @@ footer {
   color: white;
 }
 
-.button {
+.button-work {
+  display: inline-flex;
+  height: 200px;
+  width: 250px;
+  margin: 10px 10px 10px 10px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-project {
+  display: inline-flex;
+  height: 200px;
+  width: 250px;
+  margin: 10px 10px 10px 10px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-about {
   display: inline-flex;
   height: 200px;
   width: 250px;
