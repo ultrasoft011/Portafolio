@@ -1,12 +1,15 @@
 const first = document.querySelector(".example");
-const project = document.querySelector(".header--project");
 const work = document.querySelector(".header--work");
+const project = document.querySelector(".header--project");
 const about = document.querySelector(".header--about");
-const workButton = document.querySelector(".header--work");
+const workButton = document.querySelector(".header--project");
 const leftWorkCard = document.querySelector(".work__leftcard");
 const rightWorkCard = document.querySelector(".work__rightcard");
 const leftWorkCard2 = document.querySelector(".work__leftcard2");
 const rightWorkCard2 = document.querySelector(".work__rightcard2");
+const blackBoxWork = document.getElementById("header-button_work");
+const blackBoxProject = document.getElementById("header-button_project");
+const blackBoxAbout = document.getElementById("header-button_about");
 
 workButton.addEventListener("click", function () {
   setTimeout(function () {
@@ -30,14 +33,17 @@ setTimeout(function () {
   }, 5000);
   setTimeout(function () {
     first.style.display = "none";
-  }, 10000);
+  }, 1000);
   setTimeout(function () {
     work.style.display = "block";
-  }, 11000);
+    blackBoxWork.style.display = "block"
+  }, 1100);
   setTimeout(function () {
     project.style.display = "block";
-  }, 12500);
+    blackBoxProject.style.display = "block"
+  }, 1250);
   setTimeout(function () {
     about.style.display = "block";
-  }, 13500);
+    blackBoxAbout.style.display = "block"
+  }, 1350);
 }, 5000);

@@ -28,14 +28,16 @@ header {
   height: 270px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   /* justify-content: center;
   align-items: center; */
 }
 
 .header__profile h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
   color: rgb(105, 63, 63);
   animation-name: fadeIn;
   animation-duration: 4.9s;
@@ -43,54 +45,38 @@ header {
 }
 
 .header--work {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: 55px;
-  font-weight: 300;
+  
+  font-size: 40px;
   display: none;
-  /* padding: 35px; */
-}
-
-.header--work:hover {
-  background-color: rgb(34, 31, 31);
-  color: #fff;
 }
 
 .header--project {
   text-align: center;
-  color: rgb(106, 30, 116);
   text-decoration: none;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 650;
   display: none;
   /* padding: 35px; */
-}
-
-.header--project:hover {
-  background-color: rgb(106, 30, 116);
-  color: #fff;
 }
 
 .header--about {
   text-align: center;
   color: rgba(27, 148, 122, 0.931);
   text-decoration: none;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 300;
   display: none;
   /* padding: 35px; */
-}
-
-.header--about:hover {
-  background-color: rgba(27, 148, 122, 0.931);
-  color: #fff;
 }
 
 .header__profile button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+a:hover {
+  border-bottom: 3px solid red;
 }
 
 /* END Header */
@@ -105,7 +91,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
-
 }
 .work-izq {
   text-align: left;
@@ -135,7 +120,6 @@ h5 {
 .work__leftcard2,
 p {
   font-size: 18px;
-
 }
 
 .work__leftcard,
@@ -160,7 +144,7 @@ h5 {
 .work__rightcard,
 .work__rightcard2,
 p {
-  font-size: 18px;  
+  font-size: 18px;
 }
 .work__rightcard,
 .work__rightcard2,
@@ -321,4 +305,49 @@ footer {
   100% {
     opacity: 1;
   }
+}
+
+#header-button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#header-button a {
+  position: relative;
+  transition: all 0.45s ease-Out;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#translate {
+  transform: rotate(90deg);
+  width: 100%;
+  height: 120%;
+  left: -300px;
+  top: -30px;
+  background: black;
+  position: absolute;
+  transition: all 0.5s ease-Out;
+}
+
+#header-button:hover #translate {
+  left: 0;
+}
+
+#header-button:hover a {
+  color: white;
+}
+
+.button {
+  display: inline-flex;
+  height: 200px;
+  width: 250px;
+  margin: 10px 10px 10px 10px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
 }
