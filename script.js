@@ -13,6 +13,7 @@ const blackBoxAbout = document.getElementById("header-button_about");
 const buttonWork = document.querySelector(".button-work");
 const buttonProject = document.querySelector(".button-project");
 const buttonAbout = document.querySelector(".button-about");
+const headerProfile = document.querySelector(".header__profile");
 
 workButton.addEventListener("click", function () {
   console.log("pressed");
@@ -37,17 +38,6 @@ setTimeout(function () {
   }, 5000);
   setTimeout(function () {
     first.style.display = "none";
+    headerProfile.style.display = "block";
   }, 10000);
-  setTimeout(function () {
-    work.style.display = "block";
-    // buttonWork.style.display = "block";
-  }, 11000);
-  setTimeout(function () {
-    project.style.display = "block";
-    // buttonProject.style.display = "block";
-  }, 12500);
-  setTimeout(function () {
-    about.style.display = "block";
-    // buttonAbout.style.display = "block";
-  }, 13500);
 }, 5000);
