@@ -32,7 +32,7 @@ workButton.addEventListener("click", function () {
 });
 
 setTimeout(function () {
-  first.innerHTML = "I'm Felipe";
+  first.innerHTML = "I'm Andrés Felipe";
   setTimeout(function () {
     first.innerHTML = "Front-end Developer";
   }, 5000);
